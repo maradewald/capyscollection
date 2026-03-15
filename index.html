@@ -127,7 +127,7 @@
     letter-spacing: 0.35em;
     color: var(--white);
     text-align: center;
-    margin-top: -8px;
+    margin-top: 4px;
     opacity: 0.85;
     position: relative;
     z-index: 2;
@@ -142,6 +142,27 @@
     color: var(--white);
     opacity: 0;
     animation: fadeUp 0.5s ease 1.1s forwards;
+  }
+
+  /* ── SHOP BUTTON ── */
+  .shop-btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 22px;
+    border: 2px solid var(--gold);
+    border-radius: 4px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.18em;
+    color: var(--gold);
+    text-decoration: none;
+    opacity: 0;
+    animation: fadeUp 0.5s ease 1.4s forwards;
+    transition: background 0.2s, color 0.2s;
+  }
+  .shop-btn:hover {
+    background: var(--gold);
+    color: var(--bg);
   }
 
   /* ── CAPY ACCENT ── */
@@ -234,6 +255,7 @@
   </div>
 
   <div class="congrats">congratulations! here's to 1000 more!</div>
+  <a class="shop-btn" href="https://www.ebay.com/usr/capyscollection1" target="_blank">Shop the Collection</a>
 
 </div>
 
